@@ -1,0 +1,126 @@
+body {
+    background: #EFEFEF;
+    font-family: "Roboto";
+}
+#mimho {
+    text-decoration: none;
+    color: black;
+}
+#mtitle {
+    color: black;
+    font-family: "Sofia";
+    font-size: 20px;
+}
+img {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px
+}
+#nav {
+    font-family: "Roboto Light";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    width: 175px;
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+#nav #panier {
+    float: right;
+}
+
+.navicon {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+    vertical-align: top;
+    clip: auto;
+}
+
+#nproduct:hover .ssnav {
+    background: #555; 
+    display: grid;
+}
+
+.ssnav {
+    position: absolute;
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ssnav li {
+    text-align: left !important;
+    width: 200px;
+    background-color: #333;
+    font-family: "Roboto Light";
+}
+
+#tri {
+    border-radius: 4px;
+    font-family: "Roboto Light";
+    font-size: 14px;
+}
+
+#products {
+    max-width: 1480px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.ppic {
+    max-width: 300px;
+}
+
+.p {
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 12px;
+}
+
+.p:hover {
+    background-color: #DEDEDE;
+    transition: all ease-in-out .2s;
+    border-radius: 2px;
+}
+
+.p:hover .ptitle {
+    transition: all ease-in-out .2s;
+    text-decoration-line: underline;
+}
+
+.ptitle {
+    margin: 0 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.pdesc {
+    font-size: 14px;
+    font-family: "Roboto Light";
+}
